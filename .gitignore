@@ -42,6 +42,9 @@ vignettes/*.pdf
 # pkgdown site
 docs/
 
+# ignore Rproj
+*.Rproj
+
 # translation temp files
 po/*~
 
