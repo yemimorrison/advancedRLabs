@@ -6,9 +6,9 @@
 #' @examples
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
+#' @section Reference: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
 
 
-library(dplyr)
 dijkstra <- function (graph, init_node) {
   
   #check if graph is a data frame 

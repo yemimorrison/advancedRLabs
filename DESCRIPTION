@@ -9,6 +9,10 @@ Description: The package contains two algorithms, namely the Euclidean and Dijks
     The Dijkstra algorithm is designed to calculate the shortest path from the initial 
     node to every other node in the graph and returns the result as a vector.
 License: 'use_mit_license()', 'use_gpl3_license()'
+Imports: dplyr
+Suggests: testthat
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.3
+Depends: 
+    R (>= 2.10)
