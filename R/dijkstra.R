@@ -3,10 +3,12 @@
 #' @param graph a dataframe.
 #' @param init_node a number.
 #' @returns The shortest path to every other node from the starting node as a vector.
+#' @import dplyr
 #' @examples
 #' dijkstra(wiki_graph, 1)
 #' dijkstra(wiki_graph, 3)
 #' @section Reference: https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm
+#' @export
 
 
 dijkstra <- function (graph, init_node) {
@@ -43,7 +45,7 @@ dijkstra <- function (graph, init_node) {
     
     # Find the neighboring nodes of the current node
     neighbor <- graph %>%
-      filter(v1 ==visited_node)
+      filter(v1 == visited_node)
     
     for(i in 1:nrow(neighbor)) {
       visit_neighbor <- neighbor[i, ]
@@ -58,7 +60,6 @@ dijkstra <- function (graph, init_node) {
   
   return(short_dist)
 }
-
 
 
 
