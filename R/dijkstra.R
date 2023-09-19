@@ -4,12 +4,11 @@
 #' @param init_node a number.
 #' @returns The shortest path to every other node from the starting node as a vector.
 #' @examples
-#' dijkstra()
-#' dijkstra()
+#' dijkstra(wiki_graph, 1)
+#' dijkstra(wiki_graph, 3)
 
 
-
-
+library(dplyr)
 dijkstra <- function (graph, init_node) {
   
   #check if graph is a data frame 

@@ -1,9 +1,9 @@
-Package: advancedRLabstest
+Package: advancedRLabs
 Type: Package
 Title: Euclidean And Dijkstra Algorithm
 Version: 0.1.0
-Author: person("Olayemi", "Morrison", "Daisuke", "Yamashita",, "olamo208@student.liu.se", "ronss490@student.liu.se", role = c("aut","cre"), comment = c(LiUID1 = "ronss490", LiUID2 = "olamo208"))
-Maintainer: olamo208@student.liu.se & ronss490@student.liu.se
+Author: c(person("Olayemi", "Morrison", "olamo208@student.liu.se", role = c("aut","cre"), comment = c(LiUID = "olamo208")), person("Daisuke", "Yamashita", "ronss490@student.liu.se", , role = c("aut"), comment = c(LiUID1 = "ronss490")))
+Maintainer: Olayemi Morrison <olamo208@student.liu.se>
 Description: The package contains two algorithms, namely the Euclidean and Dijkstra algorithms.
     The Euclidean algorithm is designed to find the greatest common divisor of two integers.
     The Dijkstra algorithm is designed to calculate the shortest path from the initial 
