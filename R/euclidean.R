@@ -6,6 +6,7 @@
 #' @examples
 #' euclidean(252, 105)
 #' euclidean(100, 1000)
+#' @section Reference: https://en.wikipedia.org/wiki/Euclidean_algorithm
 
 
 
