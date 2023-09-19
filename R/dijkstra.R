@@ -1,10 +1,20 @@
-library(dplyr)
+#' The Dijkstras algortithm takes a graph and an initial node and calculates the shortest path from the initial node to every other node. 
+#' 
+#' @param graph a dataframe.
+#' @param init_node a number.
+#' @returns The shortest path to every other node from the starting node as a vector.
+#' @examples
+#' dijkstra()
+#' dijkstra()
+
+
+
 
 dijkstra <- function (graph, init_node) {
   
   #check if graph is a data frame 
   if (!is.data.frame(graph)) {
-    stop("Invalid input. graph must be a data frame")
+    stop("Invalid input. graph must be a dataframe")
   } 
   
   #check if init_node is numeric 
@@ -49,5 +59,7 @@ dijkstra <- function (graph, init_node) {
   
   return(short_dist)
 }
+
+
 
 

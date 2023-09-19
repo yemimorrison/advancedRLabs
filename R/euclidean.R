@@ -1,3 +1,14 @@
+#' Euclidean algorithm to find the greatest common divisor of two numbers. 
+#' 
+#' @param x A number.
+#' @param y A number.
+#' @returns The greatest common divisor of both inputs which is a number.
+#' @examples
+#' euclidean(252, 105)
+#' euclidean(100, 1000)
+
+
+
 euclidean <- function(x, y) {
 
   #check if x and y are numeric values.
@@ -14,6 +25,8 @@ euclidean <- function(x, y) {
   
   return(x)
 }
+
+
 
 
 
